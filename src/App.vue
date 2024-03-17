@@ -7,7 +7,7 @@ import Home from './components/Home.vue';
   <Home />
   <div>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+      <img src="./assets/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
@@ -16,6 +16,4 @@ import Home from './components/Home.vue';
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-  @import './App.css';
-</style>
+<style lang="css" src="./styles/App.css" scoped></style>

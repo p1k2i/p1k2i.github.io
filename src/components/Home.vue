@@ -11,6 +11,4 @@
   </header>
 </template>
 
-<style scoped>
-  @import './Home.css';
-</style>
+<style lang="css" src="/src/styles/components/Home.css" scoped></style>
