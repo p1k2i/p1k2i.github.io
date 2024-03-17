@@ -4,6 +4,11 @@
 			"path": "."
 		}
 	],
+	"extensions": {
+		"recommendations": [
+			"Vue.volar"
+		]
+	},
 	"settings": {
 		"editor.tabSize": 2
 	},
