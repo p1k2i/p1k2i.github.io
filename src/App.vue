@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue';
 import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
   <TheHeader />
+  <Home />
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="./assets/vite.svg" class="logo" alt="Vite logo" />
