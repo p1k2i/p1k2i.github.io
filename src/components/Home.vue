@@ -7,7 +7,7 @@ import ListCard from './ListCard.vue';
   <div class="container">
     <div class="row justify-content-center my-5">
       <div class="col-12 col-md-10 col-lg-8">
-        <h1 class="display-5 text-center mb-4">About my work</h1>
+        <h1 class="display-5 text-center mb-4">About my experience</h1>
 
         <ListCard tittle="Building Web Applications">
           <CardLiElement
@@ -30,9 +30,9 @@ import ListCard from './ListCard.vue';
           ></CardLiElement>
         </ListCard>
 
-        <ListCard tittle="Why Am I the Best Choice?">
+        <ListCard tittle="I am The Best Choice because:">
           <CardLiElement
-            tittle="All the time analyzing and improving your project"
+            tittle="Analyzing and improving your project"
           ></CardLiElement>
           <CardLiElement
             tittle="Learning new technologies and the best practices"
