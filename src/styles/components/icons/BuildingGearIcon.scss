@@ -1,0 +1,39 @@
+@import '/src/styles/variables.scss';
+
+$img2-natural-width: 256px;
+$img2-natural-center-left: 66px;
+$img2-natural-center-top: 67px;
+
+$img2-scale: 0.59;
+$img2-center-left-factor: calc($img2-natural-center-left / $img2-natural-width);
+$img2-center-top-factor: calc($img2-natural-center-top / $img2-natural-width);
+
+#image-container img {
+  position: absolute;
+  width: #{$icon-size};
+  height: #{$icon-size};
+}
+
+#img1 {
+  animation: spin-img1 21s linear infinite;
+}
+
+#img2 {
+  left: ($icon-size * 0.5 - $icon-size * $img2-center-left-factor);
+  top: ($icon-size * 0.5 - $icon-size * $img2-center-top-factor);
+  scale: $img2-scale;
+  animation: spin-img2 1s linear alternate infinite;
+  transform-origin: #{$img2-center-left-factor * 100%} #{$img2-center-top-factor * 100%};
+}
+
+@keyframes spin-img1 {
+  100% {
+      transform:rotate(360deg);
+  }
+}
+
+@keyframes spin-img2 {
+  100% {
+      transform:rotate(-40deg);
+  }
+}
