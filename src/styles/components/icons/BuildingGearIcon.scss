@@ -12,6 +12,8 @@ $img2-center-top-factor: calc($img2-natural-center-top / $img2-natural-width);
   position: absolute;
   width: #{$icon-size};
   height: #{$icon-size};
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 #img1 {
