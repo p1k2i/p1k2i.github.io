@@ -34,7 +34,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           :icon-component="BuildingGearIcon"
         >
           <CardLiElement
-              tittle="Planning your project structure based on your business needs"
+              tittle="Planning project structure based on your business needs"
           ></CardLiElement>
           <CardLiElement
             tittle="Designing appropriate database schema"
