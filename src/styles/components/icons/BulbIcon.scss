@@ -6,6 +6,7 @@
   height: #{$icon-size};
   user-select: none;
   -webkit-user-drag: none;
+  pointer-events: none;
 }
 
 #img2 {
