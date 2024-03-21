@@ -97,7 +97,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           ></CardLiElement>
         </ListCard>
 
-        <ListCard tittle="I am working for"
+        <ListCard tittle="Working with"
           :icon-component="BuildingGearIcon"
         >
           <CardLiElement
