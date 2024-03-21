@@ -7,7 +7,8 @@ defineProps<{ tittle: string }>()
 <template>
   <li class="media my-2">
     <div class="media-body">
-      <p>{{ tittle }}</p>
+      <p class="d-inline-block">{{ tittle }}</p>
+      <slot></slot>
     </div>
   </li>
 </template>
