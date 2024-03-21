@@ -51,6 +51,40 @@ import BuildingGearIcon from './icons/BuildingGearIcon.vue';
           ></CardLiElement>
         </ListCard>
 
+        <ListCard tittle="I am working for"
+          :icon-component="BuildingGearIcon"
+        >
+          <CardLiElement
+            tittle="Individuals"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Startups"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Small and medium-sized businesses"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Large enterprises"
+          ></CardLiElement>
+        </ListCard>
+
+        <ListCard tittle="Focused on"
+          :icon-component="BuildingGearIcon"
+        >
+          <CardLiElement
+            tittle="Startups"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Modern technologies"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Modernizing outdated systems"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Creative solutions"
+          ></CardLiElement>
+        </ListCard>
+
       </div>
     </div>
   </div>
