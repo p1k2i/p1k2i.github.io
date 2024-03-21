@@ -9,6 +9,25 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
   <div class="container">
     <div class="row justify-content-center my-5">
       <div class="col-12 col-md-10 col-lg-8">
+
+        <ListCard tittle="Contacts"
+          :icon-component="BuildingGearIcon"
+        >
+          <CardLiElement tittle="Phone:">
+            <a class="d-inline ms-1" href='tel:+351938579847'>+351938579847</a>
+          </CardLiElement>
+          <CardLiElement tittle="Email:">
+            <a class="d-inline ms-1" href='mailto:nikolaymironov998@gmail.com'>nikolaymironov998@gmail.com</a>
+          </CardLiElement>
+          <CardLiElement tittle="Residence: Portugal, Aveiro" />
+          <CardLiElement tittle="GitHub:">
+            <a class="d-inline ms-1" href='https://github.com/p1k2i' target="_blank">p1k2i</a>
+          </CardLiElement>
+          <CardLiElement tittle="LinkedIn:">
+            <a class="d-inline ms-1" href='https://www.linkedin.com/in/p1k2i/' target="_blank">p1k2i</a>
+          </CardLiElement>
+        </ListCard>
+
         <h1 class="display-5 text-center mb-4">About my experience</h1>
 
         <ListCard tittle="Building Web Applications"
