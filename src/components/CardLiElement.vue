@@ -12,3 +12,5 @@ defineProps<{ tittle: string }>()
     </div>
   </li>
 </template>
+
+<style lang="scss" src="/src/styles/components/CardLiElement.scss" scoped></style>
