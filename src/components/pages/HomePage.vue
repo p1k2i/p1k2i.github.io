@@ -109,4 +109,4 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
   </div>
 </template>
 
-<style lang="scss" src="/src/styles/components/HomePage.scss" scoped></style>
+<style lang="scss" src="/src/styles/components/pages/HomePage.scss" scoped></style>
