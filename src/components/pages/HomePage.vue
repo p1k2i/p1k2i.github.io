@@ -13,11 +13,21 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
         <ListCard tittle="Contacts"
           :icon-component="BuildingGearIcon"
         >
+          <CardLiElement tittle="Name:">
+            <p class="d-inline ms-1">Nikolay Mironov</p>
+          </CardLiElement>
           <CardLiElement tittle="Phone:">
             <a class="d-inline ms-1" href='tel:+351938579847'>+351938579847</a>
           </CardLiElement>
+          <CardLiElement tittle="Communication skills" >
+            <ul>
+              <li>English - basic communicative 👌</li>
+              <li>Spanish - fluent</li>
+              <li>Russian - native</li>
+            </ul>
+          </CardLiElement>
           <CardLiElement tittle="Email:">
-            <a class="d-inline ms-1" href='mailto:nikolaymironov998@gmail.com'>nikolaymironov998@gmail.com</a>
+            <a class="d-inline ms-1" href='mailto:p1k2i.dev@gmail.com'>p1k2i.dev@gmail.com</a>
           </CardLiElement>
           <CardLiElement tittle="Residence: Portugal, Aveiro" />
           <CardLiElement tittle="GitHub:">
