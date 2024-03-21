@@ -1,0 +1,20 @@
+@import '/src/styles/variables.scss';
+
+#image-container img {
+  position: absolute;
+  width: #{$icon-size};
+  height: #{$icon-size};
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#img2 {
+  animation: spin-img2 64s linear infinite;
+  scale: 1.2;
+}
+
+@keyframes spin-img2 {
+  100% {
+      transform:rotate(360deg);
+  }
+}

@@ -3,6 +3,7 @@ import CardLiElement from '../CardLiElement.vue';
 import ListCard from '../ListCard.vue';
 
 import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
+import PersonalIcon from '../icons/PersonalIcon.vue';
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
       <div class="col-12 col-md-10 col-lg-8">
 
         <ListCard tittle="Personal Information"
-          :icon-component="BuildingGearIcon"
+          :icon-component="PersonalIcon"
         >
           <CardLiElement tittle="Name:">
             <p class="d-inline ms-1">Nikolay Mironov</p>
