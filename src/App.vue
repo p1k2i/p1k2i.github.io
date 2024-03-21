@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Home from './components/Home.vue';
+import HomePage from './components/HomePage.vue';
 import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
   <TheHeader />
-  <Home />
+  <HomePage />
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="./assets/vite.svg" class="logo" alt="Vite logo" />
