@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import CardLiElement from './CardLiElement.vue';
 import ListCard from './ListCard.vue';
+
+import BuildingGearIcon from './icons/BuildingGearIcon.vue';
 </script>
 
 <template>
@@ -9,7 +11,9 @@ import ListCard from './ListCard.vue';
       <div class="col-12 col-md-10 col-lg-8">
         <h1 class="display-5 text-center mb-4">About my experience</h1>
 
-        <ListCard tittle="Building Web Applications">
+        <ListCard tittle="Building Web Applications"
+          :icon-component="BuildingGearIcon"
+        >
           <CardLiElement
               tittle="Planning your project structure based on your business needs"
           ></CardLiElement>
@@ -30,7 +34,9 @@ import ListCard from './ListCard.vue';
           ></CardLiElement>
         </ListCard>
 
-        <ListCard tittle="I am The Best Choice because:">
+        <ListCard tittle="I am The Best Choice because:"
+          :icon-component="BuildingGearIcon"
+        >
           <CardLiElement
             tittle="Analyzing and improving your project"
           ></CardLiElement>

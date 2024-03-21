@@ -1,14 +1,14 @@
 
 <script setup lang="ts">
-import BuildingGearIcon from './icons/BuildingGearIcon.vue';
+import vue from 'vue';
 
-defineProps<{ tittle: string }>()
+defineProps<{ tittle: string, iconComponent: vue.Component }>()
 
 </script>
 
 <template>
   <div class="card p-3">
-    <BuildingGearIcon class="work-icon"></BuildingGearIcon>
+    <component :is="iconComponent" class="work-icon"></component>
     <h5 class="card-title">{{ tittle }}</h5>
     <ul class="ms-4 text-start d-inline-block">
       <slot></slot>
