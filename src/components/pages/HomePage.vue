@@ -19,6 +19,9 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           <CardLiElement tittle="Phone:">
             <a class="d-inline ms-1" href='tel:+351938579847'>+351938579847</a>
           </CardLiElement>
+          <CardLiElement tittle="Email:">
+            <a class="d-inline ms-1" href='mailto:p1k2i.dev@gmail.com'>p1k2i.dev@gmail.com</a>
+          </CardLiElement>
           <CardLiElement tittle="Communication skills" >
             <ul>
               <li>English - basic communicative 👌</li>
@@ -26,9 +29,6 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
               <li>Russian - native</li>
               <li>Portuguese - beginner</li>
             </ul>
-          </CardLiElement>
-          <CardLiElement tittle="Email:">
-            <a class="d-inline ms-1" href='mailto:p1k2i.dev@gmail.com'>p1k2i.dev@gmail.com</a>
           </CardLiElement>
           <CardLiElement tittle="Residence: Portugal, Aveiro" />
           <CardLiElement tittle="GitHub:">
