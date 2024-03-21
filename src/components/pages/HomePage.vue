@@ -4,6 +4,7 @@ import ListCard from '../ListCard.vue';
 
 import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
 import PersonalIcon from '../icons/PersonalIcon.vue';
+import BulbIcon from '../icons/BulbIcon.vue';
 </script>
 
 <template>
@@ -66,7 +67,7 @@ import PersonalIcon from '../icons/PersonalIcon.vue';
         </ListCard>
 
         <ListCard tittle="I am The Best Choice"
-          :icon-component="BuildingGearIcon"
+          :icon-component="BulbIcon"
         >
           <CardLiElement
             tittle="Analyzing and improving your project"

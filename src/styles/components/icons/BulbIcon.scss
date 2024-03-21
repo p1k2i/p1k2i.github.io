@@ -1,0 +1,23 @@
+@import '/src/styles/variables.scss';
+
+#image-container img {
+  position: absolute;
+  width: #{$icon-size};
+  height: #{$icon-size};
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#img2 {
+  animation: opacity-img2 1.5s linear alternate-reverse infinite;
+}
+
+@keyframes opacity-img2 {
+  0% {
+      opacity: 0.69;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
