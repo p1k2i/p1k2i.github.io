@@ -34,7 +34,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           ></CardLiElement>
         </ListCard>
 
-        <ListCard tittle="I am The Best Choice because:"
+        <ListCard tittle="I am The Best Choice"
           :icon-component="BuildingGearIcon"
         >
           <CardLiElement
