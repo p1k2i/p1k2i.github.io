@@ -10,7 +10,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
     <div class="row justify-content-center my-5">
       <div class="col-12 col-md-10 col-lg-8">
 
-        <ListCard tittle="Contacts"
+        <ListCard tittle="Personal Information"
           :icon-component="BuildingGearIcon"
         >
           <CardLiElement tittle="Name:">
