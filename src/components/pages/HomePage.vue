@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import CardLiElement from './CardLiElement.vue';
-import ListCard from './ListCard.vue';
+import CardLiElement from '../CardLiElement.vue';
+import ListCard from '../ListCard.vue';
 
-import BuildingGearIcon from './icons/BuildingGearIcon.vue';
+import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
 </script>
 
 <template>
