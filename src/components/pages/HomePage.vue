@@ -91,13 +91,13 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           :icon-component="BuildingGearIcon"
         >
           <CardLiElement
-            tittle="Startups"
+            tittle="Back-end technologies"
           ></CardLiElement>
           <CardLiElement
             tittle="Modern technologies"
           ></CardLiElement>
           <CardLiElement
-            tittle="Modernizing outdated systems"
+            tittle="Modernizing outdated systems and automatization"
           ></CardLiElement>
           <CardLiElement
             tittle="Creative solutions"
