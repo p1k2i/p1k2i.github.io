@@ -24,6 +24,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
               <li>English - basic communicative 👌</li>
               <li>Spanish - fluent</li>
               <li>Russian - native</li>
+              <li>Portuguese - beginner</li>
             </ul>
           </CardLiElement>
           <CardLiElement tittle="Email:">
