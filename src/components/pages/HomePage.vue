@@ -5,6 +5,7 @@ import ListCard from '../ListCard.vue';
 import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
 import PersonalIcon from '../icons/PersonalIcon.vue';
 import BulbIcon from '../icons/BulbIcon.vue';
+import FocusIcon from '../icons/FocusIcon.vue';
 </script>
 
 <template>
@@ -84,7 +85,7 @@ import BulbIcon from '../icons/BulbIcon.vue';
         </ListCard>
 
         <ListCard tittle="Focused on"
-          :icon-component="BuildingGearIcon"
+          :icon-component="FocusIcon"
         >
           <CardLiElement
             tittle="Back-end technologies"
