@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue';
 import TheHeader from './components/TheHeader.vue';
 </script>
@@ -15,7 +14,6 @@ import TheHeader from './components/TheHeader.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style lang="css" src="./styles/App.css" scoped></style>
