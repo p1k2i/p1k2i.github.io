@@ -70,23 +70,6 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           ></CardLiElement>
         </ListCard>
 
-        <ListCard tittle="I am working for"
-          :icon-component="BuildingGearIcon"
-        >
-          <CardLiElement
-            tittle="Individuals"
-          ></CardLiElement>
-          <CardLiElement
-            tittle="Startups"
-          ></CardLiElement>
-          <CardLiElement
-            tittle="Small and medium-sized businesses"
-          ></CardLiElement>
-          <CardLiElement
-            tittle="Large enterprises"
-          ></CardLiElement>
-        </ListCard>
-
         <ListCard tittle="Focused on"
           :icon-component="BuildingGearIcon"
         >
@@ -101,6 +84,23 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
           ></CardLiElement>
           <CardLiElement
             tittle="Creative solutions"
+          ></CardLiElement>
+        </ListCard>
+
+        <ListCard tittle="I am working for"
+          :icon-component="BuildingGearIcon"
+        >
+          <CardLiElement
+            tittle="Individuals"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Startups"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Small and medium-sized businesses"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Large enterprises"
           ></CardLiElement>
         </ListCard>
 
