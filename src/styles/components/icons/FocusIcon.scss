@@ -10,7 +10,7 @@
 }
 
 #img2 {
-  animation: scale-img2 2s linear alternate-reverse infinite;
+  animation: scale-img2 2s ease-in-out alternate-reverse infinite;
 }
 
 @keyframes scale-img2 {
