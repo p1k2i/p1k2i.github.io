@@ -6,6 +6,7 @@ import BuildingGearIcon from '../icons/BuildingGearIcon.vue';
 import PersonalIcon from '../icons/PersonalIcon.vue';
 import BulbIcon from '../icons/BulbIcon.vue';
 import FocusIcon from '../icons/FocusIcon.vue';
+import PartnershipIcon from '../icons/PartnershipIcon.vue';
 </script>
 
 <template>
@@ -102,7 +103,7 @@ import FocusIcon from '../icons/FocusIcon.vue';
         </ListCard>
 
         <ListCard tittle="Working with"
-          :icon-component="BuildingGearIcon"
+          :icon-component="PartnershipIcon"
         >
           <CardLiElement
             tittle="Individuals"
