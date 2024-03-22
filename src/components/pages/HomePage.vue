@@ -23,7 +23,7 @@ import FocusIcon from '../icons/FocusIcon.vue';
             <a class="d-inline ms-1" href='tel:+351938579847'>+351938579847</a>
           </CardLiElement>
           <CardLiElement tittle="Email:">
-            <a class="d-inline ms-1" href='mailto:p1k2i.dev@gmail.com'>p1k2i.dev@gmail.com</a>
+            <a class="d-inline ms-1" href='mailto:nikolaymironov998@gmail.com'>nikolaymironov998@gmail.com</a>
           </CardLiElement>
           <CardLiElement tittle="Communication skills" >
             <ul>
