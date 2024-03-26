@@ -12,4 +12,4 @@
   </header>
 </template>
 
-<style lang="css" src="/src/styles/components/Home.css" scoped></style>
+<style lang="css" src="/src/styles/components/TheHeader.css" scoped></style>

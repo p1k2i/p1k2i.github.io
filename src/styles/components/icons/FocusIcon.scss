@@ -1,0 +1,24 @@
+@import '/src/styles/variables.scss';
+
+#image-container img {
+  position: absolute;
+  width: #{$icon-size};
+  height: #{$icon-size};
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+#img2 {
+  animation: scale-img2 2s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes scale-img2 {
+  0% {
+      scale: 0.9;
+  }
+
+  100% {
+      scale: 0.7;
+  }
+}
