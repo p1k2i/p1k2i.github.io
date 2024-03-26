@@ -72,16 +72,16 @@ import PartnershipIcon from '../icons/PartnershipIcon.vue';
           :icon-component="BulbIcon"
         >
           <CardLiElement
-            tittle="Analyzing and improving your project"
+            tittle="Analizing the project architecture"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Writing clean and maintainable code"
+          ></CardLiElement>
+          <CardLiElement
+            tittle="Working with Git and maintaining a clean history"
           ></CardLiElement>
           <CardLiElement
             tittle="Learning new technologies and the best practices"
-          ></CardLiElement>
-          <CardLiElement
-            tittle="Separating environments maintaining all data secured"
-          ></CardLiElement>
-          <CardLiElement
-            tittle="I am always available for you"
           ></CardLiElement>
         </ListCard>
 
