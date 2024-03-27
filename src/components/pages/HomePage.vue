@@ -28,7 +28,7 @@ import PartnershipIcon from '../icons/PartnershipIcon.vue';
           </CardLiElement>
           <CardLiElement tittle="Communication skills" >
             <ul>
-              <li>English - basic communicative 👌</li>
+              <li>English - communicative 👌</li>
               <li>Spanish - fluent</li>
               <li>Russian - native</li>
               <li>Portuguese - beginner</li>
